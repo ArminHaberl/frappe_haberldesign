@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include haberldesign *.css
+recursive-include haberldesign *.csv
+recursive-include haberldesign *.html
+recursive-include haberldesign *.ico
+recursive-include haberldesign *.js
+recursive-include haberldesign *.json
+recursive-include haberldesign *.md
+recursive-include haberldesign *.png
+recursive-include haberldesign *.py
+recursive-include haberldesign *.svg
+recursive-include haberldesign *.txt
+recursive-exclude haberldesign *.pyc
